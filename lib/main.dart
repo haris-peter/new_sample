@@ -45,10 +45,10 @@ class _HomePageState extends State<HomePage> {
                     "When you press the button, the value increments",
                     style: TextStyle(fontSize: 28, color: Colors.white),
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Text(
                     value.count.toString(),
-                    style: TextStyle(fontSize: 24, color: Colors.white),
+                    style: const TextStyle(fontSize: 24, color: Colors.white),
                   ),
                   IconButton(
                     onPressed: () {
